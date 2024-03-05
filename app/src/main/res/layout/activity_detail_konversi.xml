@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.detail.DetailKonversiActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Data Konversi Siswa"
+        app:titleCentered="true"
+        app:navigationIcon="@drawable/ic_back"/>
+
+    <TextView
+        android:id="@+id/nis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIS"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_nis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/nama_siswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAMA SISWA"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_nama_siswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KELAS"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_kelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/nama_dudi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAMA DUDI"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_nama_dudi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/alamat_dudi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALAMAT DUDI"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_alamat_dudi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/durasi_pkl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DURASI PKL"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_durasi_pkl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/manajerial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MANAJERIAL"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_manajerial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/kepemimpinan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KEPEMIMPINAN"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_kepemimpinan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/kedisiplinan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KEDISPLINAN"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_kedisiplinan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/kejuruan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KEJURUAN"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_kejuruan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/kerja_tim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KERJA TIM"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_kerja_tim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/rerata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RERATA"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_rerata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/predikat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PREDIKAT"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_predikat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/keterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KETERANGAN"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_keterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</androidx.appcompat.widget.LinearLayoutCompat>
