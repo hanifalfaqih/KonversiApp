@@ -1,14 +1,5 @@
 # Project Konversi App
 
-## How to Use
-
-1. Open the Konversi App on your device.
-2. Select the type of unit you want to convert (length, weight, volume, time, etc.).
-3. Choose the initial unit and the target unit from the available list.
-4. Enter the value you want to convert.
-5. Press the "Convert" button, and the application will display the conversion result.
-6. You can also view your conversion history and add favorite units for quick access.
-
 ## System Requirements
 
 This application can be installed and used on Android devices. The minimum system requirements for using this application are as follows:
