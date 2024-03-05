@@ -12,7 +12,6 @@ class DetailKonversiActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailKonversiBinding
 
-    @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailKonversiBinding.inflate(layoutInflater)
@@ -22,7 +21,7 @@ class DetailKonversiActivity : AppCompatActivity() {
             onBackPressedDispatcher.onBackPressed()
         }
 
-        val data = intent.getParcelableExtra(DETAIL_KONVERSI, KonversiModel::class.java)
+        val data = intent.getParcelableExtra<KonversiModel>(DETAIL_KONVERSI)
         data?.let {
             setData(it)
         }
